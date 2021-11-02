@@ -1,0 +1,92 @@
+body {
+    background-color: rgb(150, 150, 150);
+}
+/* flexbox et une solution pour aligner les element de facon horizontale mais aussi vertical comme float, flex va permettre d'afficher les element les uns a coté des autres*/
+
+.bleu {
+    width: 100px;
+    background-color: blue;
+    color: white;
+}
+
+.blanc {
+    width: 100px;
+    background-color: blanchedalmond;
+    color: black;
+}
+
+.gris {
+    width: 100px;
+    background-color: grey;
+
+}
+
+.noir {
+    width: 100px;
+    background-color: black;
+    color: white;
+}
+/* ici on a donné une coleur a nos element pour bien visualiser les changements dans leur comportement */
+
+/* il existe different valeur pour justify-content : par defaut la valeur et flex-start il existe aussi flex-and se passe a la fin center au centre space-evenly espace entre les different element de facon uniforme space-around : espace autour des element, space-between : entre les elements*/ 
+
+.jc-evenly {
+    display: flex;
+    justify-content: space-evenly;
+    height: 100px;
+    /*si le parent a une hauteur les enfant on par défaut cette même hauteur c'est le comportement par défaut de align-items, stretch : étant toi */
+
+}
+.jc-around {
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+}
+.jc-between {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+}
+.jc-start {
+    display: flex;
+    justify-content: start;
+    height: 100px;
+}
+.ordre {
+    display: flex;
+    justify-content: space-around;
+}
+
+.ordre .bleu {
+    order: calc(-2);
+}
+
+.ordre .blanc{
+    order: calc();
+}
+/* order est une propieter utile car elle permet de déplacer un element a un point nomée*/
+
+.stretch {
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+    align-items: stretch;/*c'est la valeur par défaut */
+}
+.baseline {
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+    align-items: baseline;/* les div s'affiche à la hauteur de la ligne de caratère*/
+}
+.jc-and {
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+    align-items: flex-end;
+}
+.jc-centrer {
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+    align-items: center;
+}

@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+header {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+}
+
+footer{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+    
+}
+.row {
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;/* ca la ça permet de faire un 2éme guizgui si y'a pas de place ça va faire un autre contenu dans guizgui */
+}
+
+.col-1 {
+    width: 8.3333%;
+    padding: 4px;
+}
+
+.col-2 {
+    width: 16.666666%;
+    padding: 4px;
+    
+}
+.col-3 {
+    width: 25%;
+    padding: 4px;
+   
+
+}
+.col-4 {
+    width: 33.333333%;
+    padding: 4px;
+    
+
+}
+.col-5 {
+    width: 41.666666%;
+    padding: 4px;
+    
+}
+.col-6 {
+    width: 50%;
+    padding: 4px;
+}
+.col-7 {
+    width: 58.33333%;
+    padding: 4px;
+}
+.col-8 {
+    width: 66.666666%;
+    padding: 4px;
+    
+}
+.col-9 {
+    width: 75%;
+    padding: 4px;
+}
+.col-10 {
+    width: 83.33333%;
+padding: 4px;
+}
+
+.col-11 {
+    width: 91.666666;
+    padding: 4px;
+}
+.col-12 {
+    width: 100%;
+    padding: 4px;
+}
+
+.marron {
+    background-color: rgb(107, 57, 0);
+}
+
+.bleu {
+    background-color: blue;
+}
+
+.noir {
+    background-color: black;
+    color: white;
+}
+
+.rouge {
+    background-color:red;
+}
+.gris {
+    background-color: grey;
+}
+.blanc {
+    background-color: rgb(218, 216, 216);
+    color: black;
+}
+.jaune {
+    background-color: yellow;
+}
+.orange {
+    background-color: orange;
+}
+.rose {
+    background-color: pink;
+}
+.violet {
+    background-color: purple;
+}
+.vert {
+    background-color: green;
+}
+.turquoise {
+    background-color: turquoise;
+}
+.col-0 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.row-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}

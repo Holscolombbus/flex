@@ -1,0 +1,43 @@
+body {
+    background-color:aqua;
+}
+
+.bleu {
+    
+    background-color: blue;
+    color: white;
+}
+
+.blanc {
+    
+    background-color: blanchedalmond;
+    color: black;
+}
+
+.gris {
+    
+    background-color: grey;
+
+}
+
+.noir {
+    
+    background-color: black;
+    color: white;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+/* grâce au display flex qui et assosie à flex-direction row: on affiche les éléments enfant de notre section en rangée les uns à côté des autres */
+
+.columns {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.r4 {
+    display: flex;
+    flex-direction: column-reverse;
+}
